@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: $(imageName)
+  vmImage: 'windows-latest'
 
 steps: 
 - script: echo Hello, world!
